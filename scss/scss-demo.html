@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCSS Features Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="scss-demo.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo">SCSS Master</div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Unlock the Power of <span class="highlight">SCSS</span></h1>
+        <p>Write cleaner, maintainable, and structured CSS with ease.</p>
+        <div class="cta-group">
+          <a href="#" class="btn-primary">Get Started</a>
+          <a href="#" class="btn-secondary">Learn More</a>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="card">
+          <h3>Variables</h3>
+          <p>
+            Store colors, fonts, and values to reuse throughout your stylesheet.
+            Change once, update everywhere.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Nesting</h3>
+          <p>
+            Nest your CSS selectors in a way that follows the same visual
+            hierarchy of your HTML.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Mixins</h3>
+          <p>
+            Create groups of CSS declarations that you want to reuse throughout
+            your site.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Inheritance</h3>
+          <p>
+            Share a set of CSS properties from one selector to another using
+            @extend.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>&copy; 2024 SCSS Demo. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
